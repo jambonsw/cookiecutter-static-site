@@ -1,0 +1,10 @@
+[
+    {
+        "ParameterKey": "RootDomainName",
+        "ParameterValue": "{{ domain_name }}"
+    },
+    {
+        "ParameterKey": "ServerCertificateId",
+        "ParameterValue": ""
+    }
+]
