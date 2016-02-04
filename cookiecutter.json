@@ -1,6 +1,7 @@
 {
-    "repo_name": "",
+    "project_name": "My Static Website",
+    "project_slug": "{{ cookiecutter.project_name.lower().strip().replace(' ', '-').replace('_', '-') }}",
     "domain_name": "example.com",
-    "aws_access_key_id": "",
-    "aws_secret_access_key": ""
+    "aws_access_key_id": "XXXXXXXXXXXXXXXXXXXX",
+    "aws_secret_access_key": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }
