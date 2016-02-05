@@ -1,3 +1,3 @@
-# {{ domain_name }} Static Website
+# {{ project_name }} Static Website
 
-This is your new static website!
+Code to deploy a static website to {{ domain_name }}.
