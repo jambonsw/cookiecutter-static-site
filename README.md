@@ -92,18 +92,11 @@ file.
     $ make upload-cert
     ```
 
-3. Add the certificate ID to the CloudFormation script.
+3. Generate the CloudFormation parameters file.
 
-    1. Get the certificate ID:
-
-        ```console
-        $ make get-cert
-        ```
-
-    2. Copy and paste the ID into 
-       `aws_scripts/cloudformation_parameters.json`,
-       between the quotation marks at the end of line 8.
-
+    ```console
+    $ ./generate-params.sh
+    ```
 
 3. Create CloudFormation Stack
 
