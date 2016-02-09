@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Cookiecutter Static Site Generator documentation build configuration file, created by
+# Cookiecutter Static Site Template documentation build configuration file, created by
 # sphinx-quickstart on Fri Feb  5 12:24:40 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -48,8 +48,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Cookiecutter Static Site Generator'
-copyright = '2016, Andrew Pinkham'
+project = 'Cookiecutter Static Site Template'
+copyright = '2016, JamBon Software'
 author = 'Andrew Pinkham'
 
 # The version info for the project you're documenting, acts as replacement for
