@@ -102,7 +102,7 @@ file.
 
     2. Copy and paste the ID into 
        `aws_scripts/cloudformation_parameters.json`,
-       between the quotation marks at the end of line 7.
+       between the quotation marks at the end of line 8.
 
 
 3. Create CloudFormation Stack
