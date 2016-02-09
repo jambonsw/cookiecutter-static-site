@@ -1,4 +1,4 @@
-.PHONY: all create-stack delete-stack dns hosted-zone list-cert stack sync upload-cert
+.PHONY: all create-stack delete-stack dns hosted-zone get-cert stack sync upload-cert
 
 all: sync
 
@@ -10,8 +10,12 @@ upload-cert:
 		--certificate-chain file://{{ domain_name|lower|replace('.', '_') }}_ca_chain.pem \
 		--path /cloudfront/
 
-list-cert:
-	aws iam list-server-certificates
+get-cert:
+	aws iam list-server-certificates \
+		| jq ".ServerCertificateMetadataList[] \
+		| select(.ServerCertificateName == \"{{ domain_name|lower }}\") \
+		| .ServerCertificateId" \
+		| tr -d \"
 
 create-stack:
 	aws cloudformation create-stack \
