@@ -92,7 +92,18 @@ file.
     $ make upload-cert
     ```
 
-    To check that that worked, use `make list-cert`.
+3. Add the certificate ID to the CloudFormation script.
+
+    1. Get the certificate ID:
+
+        ```console
+        $ make get-cert
+        ```
+
+    2. Copy and paste the ID into 
+       `aws_scripts/cloudformation_parameters.json`,
+       between the quotation marks at the end of line 7.
+
 
 3. Create CloudFormation Stack
 
