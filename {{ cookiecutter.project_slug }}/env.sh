@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 export DOMAIN='{{ domain_name|lower }}'
 export AWS_ACCESS_KEY_ID='{{ aws_access_key_id }}'

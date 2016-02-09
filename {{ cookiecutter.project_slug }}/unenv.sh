@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 unset DOMAIN
 unset AWS_ACCESS_KEY_ID
