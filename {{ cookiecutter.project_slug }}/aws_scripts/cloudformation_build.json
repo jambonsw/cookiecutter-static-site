@@ -136,6 +136,7 @@
                         "TargetOriginId": {"Ref":"RootDomainName"},
                         "ViewerProtocolPolicy": "redirect-to-https",
                         "MinTTL": 86400,
+                        "Compress": true,
                         "AllowedMethods": [ "HEAD", "GET", "OPTIONS" ],
                         "CachedMethods": [ "HEAD", "GET", "OPTIONS" ],
                         "ForwardedValues": {
