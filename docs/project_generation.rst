@@ -93,7 +93,7 @@ We then install all of the smaller Python tools (not listed in the
 
 .. code:: console
 
-    $ sudo -H pip install -r requirements.txt
+    $ pip install -r requirements.txt
 
 Please note that whenever you work on this project, the scripts provided
 will need to have specific information available: specifically, the
