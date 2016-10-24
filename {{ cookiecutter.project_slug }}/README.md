@@ -1,3 +1,3 @@
-# {{ project_name }} Static Website
+# {{ cookiecutter.project_name }} Static Website
 
-Code to deploy a static website to {{ domain_name }}.
+Code to deploy a static website to {{ cookiecutter.domain_name }}.
